@@ -1201,6 +1201,13 @@ textarea.form__input {
           flex: 1 1 auto;
 }
 
+@media (min-width: 767.98px) {
+  .page__st {
+    position: fixed;
+    width: 332px;
+  }
+}
+
 @media (min-width: 991.98px) {
   .quantity__button:hover::before,
   .quantity__button:hover::after {
