@@ -179,6 +179,10 @@ body._lock {
   transition: all 0.3s ease 0s;
 }
 
+.button._fw {
+  width: 100%;
+}
+
 .select {
   position: relative;
 }
@@ -430,6 +434,7 @@ body._lock {
 .form__input:focus {
   -webkit-box-shadow: 0 0 15px #e4dcdc;
           box-shadow: 0 0 15px #e4dcdc;
+  outline: none;
 }
 
 .form__input::-webkit-input-placeholder {
